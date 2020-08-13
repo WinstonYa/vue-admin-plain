@@ -45,3 +45,8 @@ npm run lint
 # code format check and auto fix
 npm run lint --fix
 ```
+
+## License
+[MIT](https://github.com/WinstonYa/vue-admin-plain/blob/master/LICENSE)
+
+Copyright (c) 2020-present Winston_Wong
