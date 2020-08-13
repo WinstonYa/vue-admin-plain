@@ -1,0 +1,100 @@
+// el文字链接 字重
+.el-link--inner {
+  font-weight: 400;
+}
+
+
+// el卡片 header内容位置、布局
+.el-card .el-card__header {
+  padding: 16px 20px 8px;
+}
+
+
+// el分页
+.el-pagination {
+  margin-top: 20px;
+}
+
+
+// el表格
+.el-table {
+  tr th {
+    color: #303133;
+  }
+  tr th,
+  tr td {
+    text-align: center;
+  }
+}
+
+
+// el菜单导航
+.el-menu {
+  border-right: 0 !important;
+  .el-submenu,
+  .el-menu-item {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+
+.el-submenu-level_2 .el-submenu__title {
+  padding: 0 20px !important;
+}
+.el-menu-item {
+  padding: 0 20px !important;
+  .fa-dot {
+    display: inline-block;
+    margin-right: 6px;
+    width: 24px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: top;
+    color: #909399;
+    &:before {
+      content: "\00b7";
+    }
+  }
+  &:hover .fa-dot {
+    color: #303133;
+  }
+}
+.el-menu-item.is-active .fa-dot {
+  color: #409EFF;
+}
+// .el-submenu-level_1.is-active > .el-submenu__title {
+//   i {
+//     color: #409EFF !important;
+//   }
+//   span {
+//     color: #409EFF !important;
+//   }
+// }
+.fa-diamond {
+  display: inline-block;
+  margin-right: 6px;
+  width: 24px;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: top;
+  color: #909399;
+  transform-origin: center 53%;
+  transform: rotateZ(135deg);
+  transition: all 0.4s linear;
+  &:before {
+    content: "\2724";
+  }
+}
+.el-submenu-level_2:hover .fa-diamond {
+  color: #303133;
+  transform: rotate(0deg);
+}
+.el-submenu-level_2.is-active .el-submenu__title {
+  // span {
+  //   color: #409EFF !important;
+  // }
+  .fa-diamond {
+    transform: rotate(0deg);
+  }
+}
