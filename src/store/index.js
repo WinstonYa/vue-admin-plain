@@ -5,9 +5,8 @@ Vue.use(Vuex);
 
 const store = new Vuex.Store({
   state: {
-    userAvatar:
-      "https://assets.jiker.com/_for_plus_sub_project/2020/0314/admin/GeywtjDfSvcLZgTmQc3PKnVW15N4GXieGsTEK8Lh.jpg",
-    userName: "小鞠",
+    userAvatar: "https://cn.vuejs.org/images/logo.png",
+    userName: "昇",
     authPermissions: []
   },
   getters: {},
